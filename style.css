@@ -35,7 +35,7 @@ h4
 }
 canvas 
   {
-      border:3px solid white;
+      border:3px white;
       border-radius: 20px;
       box-shadow:  5px 5px 5px white;
   }
