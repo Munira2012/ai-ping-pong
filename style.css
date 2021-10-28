@@ -35,16 +35,7 @@ h4
 }
 canvas 
   {
-      border:3px white;
+      border:3px solid white;
       border-radius: 20px;
       box-shadow:  5px 5px 5px white;
   }
- 
-.instruction{
-    float:right;
-    border:1px solid white;
-    font-size:22px;
-    font-family: monospace;
-    letter-spacing: 5px;
-    font-weight: bold;
-}

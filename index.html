@@ -1,7 +1,8 @@
+
 <!DOCTYPE html>
 <html>
     <head>
-        <title>AI Ping Pong Game</title>
+        <title>Page Title</title>
  
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
@@ -13,46 +14,13 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/addons/p5.sound.min.js"></script>   
     </head>
-    <body background="background1.jpg">
+    <body background="background.jpg">
         <center>
-          <div class="heading btn btn-success">
-            <h3 style="float:left;font-family: monospace;letter-spacing: 5px;font-weight: bold;">AI PING PONG GAME</h3>
-            <button class="btn btn-success instruction" data-toggle="modal" data-target="#myModal">Instructions</button>
-            
-        </div>
-     
-    
-    
-    <div id="myModal" class="modal fade" role="dialog">
-      <div class="modal-dialog">
-    
-    
-        <div class="modal-content">
-          <div class="modal-header">
-            <button type="button" class="close" data-dismiss="modal">&times;</button>
-            <h4 class="modal-title">Instructions</h4>
-          </div>
-          <div class="modal-body">
-            <ol>
-                <li>First , keep your Laptop/Computer screen straight</li>
-                <img src="Step-1.png" class="img-responsive" height="100" width="200">
-                <li>Move yourself approximately 3-4 feet away from the Laptop/Computer</li>
-                <img src="Step-2.png" class="img-responsive" height="100" width="200">
-                <li>Move your Right Wrist in an ascending and descending manner, A red dot should appear on your right wrist .</li>
-                <img src="Step-3.png" class="img-responsive" height="100" width="200">
-                <li>Now, press the play button , And again move yourself 3-4 feet away from Laptop/Computer</li>
-                <img src="Step-4.png" class="img-responsive" height="100" width="200">
-                <li>The Red Paddel is your paddel , that will move as per the movement of your right wrist .</li>
-                <img src="Step-5.png" class="img-responsive" height="100" width="200">
-            </ol>
-          </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-          </div>
-        </div>
-    
-      </div>
-    </div>
+
+            <div class="btn btn-warning heading">
+              <h3>AI PING PONG GAME </h3>
+              <button class="btn btn-warning"  data-toggle="modal" data-target="#myModal">Instruction</button>
+            </div>
       
             <br><br>
             <button class="btn btn-success" onclick="startGame()" id="start">Play Game</button>
@@ -62,7 +30,9 @@
             <div id="canvas"></div>
             <br><br>
             <button onclick="restart()" class="btn btn-danger" id="restart">Restart</button>
+            <br><br>
             
+            <h4>Developed By : Munira Burhani</h4>
         
             <div id="myModal" class="modal fade ">
               <div class="modal-dialog" >
@@ -87,9 +57,6 @@
                 </div>
               </div>
             </div>
-            <br><br>
-            
-            <h4>Developed By : Munira </h4>
       </center>
 
 <script src="main.js"></script>
